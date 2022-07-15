@@ -7,4 +7,5 @@ RUN go get github.com/cosmtrek/air
 RUN go get -u github.com/labstack/echo
 RUN go get github.com/jinzhu/gorm
 RUN go get github.com/rubenv/sql-migrate/...
+RUN go get github.com/dgrijalva/jwt-go
 CMD ["air"]
